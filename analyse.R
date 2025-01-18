@@ -4,5 +4,5 @@ library(ratdat)
 
 #graphique
 ggplot(data = complete_old, aes(x = weight, y = hindfoot_length)) +
-  geom_point(color = "red") git+
+  geom_point(color = "red") +
   geom_line()
